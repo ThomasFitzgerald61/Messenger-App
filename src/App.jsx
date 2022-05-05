@@ -32,14 +32,14 @@ if(!authToken) return <Auth />
 
   return (
     <div className='app__wrapper'>
-        <chat client={client} theme="team light" >
+        <Chat client={client} theme="team light" >
             <ChannelListContainer 
             
             />
             <ChannelContainer 
             
             />
-        </chat>
+        </Chat>
     </div>
   );
 }
