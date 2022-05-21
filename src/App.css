@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #005fff;
+    --primary-color: #0D0630;
     --primary-color-alpha: #005fff1a;
   }
   
@@ -27,7 +27,7 @@
     justify-content: center;
   
     padding: 2rem;
-    background: #005fff;
+    background: #0D0630;
   }
   
   .auth__form-container_image {
@@ -101,8 +101,8 @@
   
   .auth__form-container_fields-content_input input:focus,
   .auth__form-container_fields-content_input input:active {
-    box-shadow: 0px 0px 0px 1.5px #005fff;
-    border-color: #005fff;
+    box-shadow: 0px 0px 0px 1.5px #0D0630;
+    border-color: #0D0630;
   }
   
   .auth__form-container_fields-content_input-password {
@@ -120,8 +120,8 @@
   
   .auth__form-container_fields-content_button button {
     border-radius: 4px;
-    background: #005fff;
-    border: 1px solid #005fff;
+    background: #0D0630;
+    border: 1px solid #0D0630;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
@@ -396,7 +396,7 @@
   .channel-list__list__wrapper {
     display: flex;
     flex-direction: column;
-    background: var(--primary-color);
+    background: #18314F;
     width: 240px;
   }
   
@@ -1055,6 +1055,7 @@
     font-family: Helvetica Neue, sans-serif;
     font-style: normal;
     font-weight: normal;
+    font-size: 14px;
     line-height: 120%;
     color: #000000;
     margin: 0;
@@ -1093,7 +1094,7 @@
     font-family: Helvetica Neue, sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 11px;
+    font-size: 15px;
     line-height: 120%;
     color: #858688;
     margin: 0;
@@ -1110,8 +1111,8 @@
   
   .str-chat__message-replies-count-button {
     z-index: 2;
+    justify-content: flex-end; 
     display: flex;
-    /* justify-content: flex-end; */
     font-family: Helvetica Neue, sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -1704,15 +1705,15 @@
     outline: none;
   }
   
-  .team-channerl-header_menu-icon {
+  .team-channel-header_menu-icon {
     display: none;
   }
   
-  .channerl-list__container-toggle {
+  .channel-list__container-toggle {
     display: none;
     height: 50px;
     width: 50px;
-    background: #005fff;
+    background: #000dff;
     position: absolute;
     right: -2%;
     top: 50%;
@@ -1741,7 +1742,7 @@
       display: none;
     }
   
-    .team-channerl-header_menu-icon {
+    .team-channel-header_menu-icon {
       display: flex;
     }
   
@@ -1779,7 +1780,7 @@
       width: 100%;
     }
   
-    .channerl-list__container-toggle {
+    .channel-list__container-toggle {
       display: flex;
     }
   
@@ -1804,7 +1805,7 @@
   }
   
   @media screen and (max-width: 650px) {
-    .channerl-list__container-toggle {
+    .channel-list__container-toggle {
       right: -3%;
     }
   }
@@ -1814,7 +1815,7 @@
       width: 150px;
     }
   
-    .channerl-list__container-toggle {
+    .channel-list__container-toggle {
       right: -5%;
     }
   }
